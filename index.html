@@ -1,34 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Course Organizer — Home</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Organizer - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Course Organizer</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="courses.html">My Courses</a></li>
-        <li><a href="add-course.html">Add Course</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">COURSE ORGANIZER</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="courses.html">My Courses</a></li>
+                    <li><a href="add-course.html">Add Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome</h2>
-      <p>Manage your courses using HTML and CSS only.</p>
-      <a class="btn" href="courses.html">View Courses</a>
-    </section>
-  </main>
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome Back! 👋</h1>
+            <p>Your personal space to organize and track your learning journey.</p>
+            <a href="add-course.html" class="btn">Start New Course</a>
+        </section>
 
-  <footer>
-    <p>&copy; 2026 Mohamed</p>
-  </footer>
+        <div class="features">
+            <article class="feature-card">
+                <h3>My Courses</h3>
+                <p>View and manage your current enrolled courses.</p>
+                <a href="courses.html" class="btn btn-secondary">Open List</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Add Course</h3>
+                <p>Quickly add a new course to your organizer.</p>
+                <a href="add-course.html" class="btn btn-secondary">Add Now</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Statistics</h3>
+                <p>See your progress and completed hours.</p>
+                <a href="#" class="btn btn-secondary">View Stats</a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Mohamed - Course Organizer</p>
+    </footer>
 </body>
-      </html>
+</html>

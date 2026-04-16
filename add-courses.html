@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Course Organizer — Add Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Course Organizer</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">My Courses</a></li>
+        <li><a href="add-course.html" class="active">Add Course</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Add Course</h2>
+      <form action="#" method="post" class="form">
+        <label>Course Name<input type="text" name="course" required></label>
+        <label>Instructor<input type="text" name="instructor" required></label>
+        <label>Credit Hours<input type="number" name="credits" min="0" required></label>
+        <label>Schedule<input type="text" name="schedule" placeholder="e.g. Sun & Tue — 10:00"></label>
+        <label>Notes<textarea name="notes" rows="3"></textarea></label>
+        <div class="actions">
+          <button class="btn" type="submit">Save</button>
+          <a class="btn ghost" href="courses.html">Back</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mohamed</p>
+  </footer>
+</body>
+  </html>

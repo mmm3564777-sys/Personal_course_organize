@@ -1,46 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Course Organizer — My Courses</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Course Organizer</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="courses.html" class="active">My Courses</a></li>
-        <li><a href="add-course.html">Add Course</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">MY COURSES</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <main>
-    <section>
-      <h2>Courses</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr><th>Course</th><th>Instructor</th><th>Credits</th><th>Schedule</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Computer Programming 1</td><td>Dr. Ibrahim</td><td>3</td><td>Fri 09:00</td></tr>
-            <tr><td>Mathematics 2</td><td>Dr. Ahmed</td><td>4</td><td>Mon 10:00</td></tr>
-            <tr><td>Discrete Structures</td><td>Dr. Karim</td><td>3</td><td>Sat 10:00</td></tr>
-            <tr><td>Web Development</td><td>Ms. Sara</td><td>2</td><td>Tue 14:00</td></tr>
-            <tr><td>Physics</td><td>Dr. Samy</td><td>3</td><td>Wed 08:00</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
+    <main class="container">
+        <section class="hero">
+            <h1>Enrolled Courses</h1>
+            <p>Manage and track your current semester subjects.</p>
+        </section>
 
-  <footer>
-    <p>&copy; 2026 Mohamed</p>
-  </footer>
+        <div class="features">
+            <article class="feature-card">
+                <h3>Computer Programming 1</h3>
+                <p><strong>Instructor:</strong> Dr. Ibrahim</p>
+                <p><strong>Credits:</strong> 3 Hours</p>
+                <p><strong>Schedule:</strong> Fri 09:00</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Mathematics 2</h3>
+                <p><strong>Instructor:</strong> Dr. Ahmed</p>
+                <p><strong>Credits:</strong> 4 Hours</p>
+                <p><strong>Schedule:</strong> Mon 10:00</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Discrete Structures</h3>
+                <p><strong>Instructor:</strong> Dr. Karim</p>
+                <p><strong>Credits:</strong> 3 Hours</p>
+                <p><strong>Schedule:</strong> Sat 10:00</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Web Development</h3>
+                <p><strong>Instructor:</strong> Ms. Sara</p>
+                <p><strong>Credits:</strong> 2 Hours</p>
+                <p><strong>Schedule:</strong> Tue 14:00</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Physics</h3>
+                <p><strong>Instructor:</strong> Dr. Samy</p>
+                <p><strong>Credits:</strong> 3 Hours</p>
+                <p><strong>Schedule:</strong> Wed 08:00</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Mohamed - Course Organizer</p>
+    </footer>
 </body>
-  </html>
+</html>
